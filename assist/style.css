@@ -65,7 +65,7 @@ h2 {
 .activ {
   border: 2px solid red;
 }
-input {
+#donate {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -129,4 +129,59 @@ footer h3 {
 }
 footer p {
   color: #ffffff;
+}
+.email-section {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.email-form {
+  width: 68%;
+  display: flex;
+  text-align: center;
+  padding: 100px;
+  background-color: #fff4d6;
+  margin: 100px 0;
+  border-radius: 10px;
+  height: 50px;
+}
+.email-input {
+  text-align: center;
+  background-color: #d9d9d9;
+  color: #aa9f9f;
+  width: 70%;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.email-submi {
+  background-color: #ff5959;
+  color: #ffffff;
+  width: 30%;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.housands-of-life {
+  display: flex;
+  align-items: center;
+  left: 50%;
+}
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+  margin: 2%;
+}
+.half-width img {
+  width: 100%;
+}
+.contribute {
+  padding: 15px 20px;
+  background-color: #ff5959;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 5;
 }
